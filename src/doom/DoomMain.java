@@ -60,7 +60,7 @@ import rr.UnifiedRenderer;
 import rr.ViewVars;
 import rr.subsector_t;
 import rr.parallel.ParallelRenderer;
-import rr.parallel.ParallelRenderer2;
+//import rr.parallel.ParallelRenderer2;
 import s.AbstractDoomAudio;
 import s.ClassicDoomSoundDriver;
 import s.ClipSFXModule;
