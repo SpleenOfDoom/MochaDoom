@@ -3155,20 +3155,20 @@ public abstract class RendererState<T, V>
         // free cameras or monster views can be done.
 
 		/* Uncommenting this will result in a very existential experience */
-  	if (Math.random()>0.99){
-	  thinker_t shit=P.getRandomThinker();
-	  try {
-		  /* It works, because practically all thinkers are also mobj_t's. There are no "bodyless" thinkers */
-	  mobj_t crap=(mobj_t)shit;
-	  player.mo=crap;
-	  SetupFrame(crap);
-	  } catch (ClassCastException e){
-
-	  }
-  	} else{
+//  	if (Math.random()>0.99){
+//	  thinker_t shit=P.getRandomThinker();
+//	  try {
+//		  /* It works, because practically all thinkers are also mobj_t's. There are no "bodyless" thinkers */
+//	  mobj_t crap=(mobj_t)shit;
+//	  player.mo=crap;
+//	  SetupFrame(crap);
+//	  } catch (ClassCastException e){
+//
+//	  }
+//  	} else{
     
         SetupFrame(player);
-  	}
+//  	}
   	
 
         // Clear buffers.
